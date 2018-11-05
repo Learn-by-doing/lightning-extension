@@ -1,5 +1,6 @@
 {
-  "name": "react-chrome-extension-scaffolding",
+  "name": "lightning-extension",
+  "description": "A browser extension that let's you make payments directly to websites via the Lightning Network",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +10,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "INLINE_RUNTIME_CHUNK=false react-scripts build",
+    "build": "react-scripts build",
+    "build-chrome": "INLINE_RUNTIME_CHUNK=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

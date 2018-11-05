@@ -1,11 +1,15 @@
-# React Chrome Extension Scaffolding
+# Lightning Extension
+
+A browser extension that let's you make payments directly to websites via the Lightning Network.
+
+Lightning Network is second layer payment network built on top of the Bitcoin blockchain. To learn more have a look at the following links:
+https://bitcoin.org/en/
+https://dev.lightning.community/resources/
 
 ## Build it
 
-In order for create-react-app scripts not to include a inline script that is not allowed by the [CSP in chrome extensions](https://developer.chrome.com/extensions/contentSecurityPolicy) it is needed to use the environmet variable bellow:
-
 ```
-INLINE_RUNTIME_CHUNK=false
+npm run build-chrome
 ```
 
 ## Use it in chrome

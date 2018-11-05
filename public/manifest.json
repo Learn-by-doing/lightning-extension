@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
-  "name": "Chrome extension scaffolding using React",
-  "description": "This extension is a starting point to create a real Chrome extension",
+  "name": "Lightning Extension",
+  "description": "A browser extension that let's you make payments directly to websites via the Lightning Network",
   "version": "0.0.1",
   "browser_action": {
     "default_popup": "index.html",
     "default_title": "Open the popup"
   },
   "icons": {
+    "32": "icon_32.png"
   },
-  "permissions": [
-  ]
+  "permissions": []
 }
