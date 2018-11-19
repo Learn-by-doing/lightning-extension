@@ -18,7 +18,7 @@ npm install
 Build the project:
 
 ```
-npm run build-chrome
+npm run build
 ```
 
 ## Run it in chrome
